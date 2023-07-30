@@ -1,2 +1,2 @@
 # T2D_BridgeModule
-A head loss based bridge module for TELEMAC-2D
+T2D_BridgeModule was developed for the open source hydrodynamic solver TELEMAC-2D ([TELEMAC-MASCRET](http://www.opentelemac.org/)). 
