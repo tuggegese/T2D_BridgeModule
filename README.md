@@ -10,4 +10,4 @@ Further details on the implementation can be found in the added paper (will be a
 
 First make sure to be familier with the basic installation of the TELEMAC-MASCARET environment. Instructions for your OS can be found on the homepage ([TELEMAC-MASCRET](http://www.opentelemac.org/)).
 
-(to be added)
+(work in progress)
