@@ -525,10 +525,10 @@
 !         Compute losses
 !         BC contraction loss
 !         MU according to weissbach
-          MUWEI = 0.63D0 + 0.37D0 * (AINUS/AOUTUS)**3.D0
+          MUWEI = 0.3D0 + 0.7D0 * (AINUS/AOUTUS)**3.D0
           BLCO = V1**2.D0/2.D0/9.81D0*(1.D0/MUWEI-1.D0)**2.D0*
-     &                (AOUTUS/AINUS)
-          BLEX = V3**2.D0/2.D0/9.81D0 * (1.D0 - AINDS/AOUTDS)
+     &                (AOUTUS/AINUS)**2.D0
+          BLEX = V3**2.D0/2.D0/9.81D0*(1.D0-AINDS/AOUTDS)**2.D0
 !         Compute headloss maybe here we should add friction
 !         at bridge deck as well
           DELTAH = BLCO + BLEX
