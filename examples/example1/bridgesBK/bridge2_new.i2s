@@ -1,0 +1,21 @@
+#########################################################################
+:FileType i2s  ASCII  EnSim 1.0
+# Canadian Hydraulics Centre/National Research Council (c) 1998-2012
+# DataType                 2D Line Set
+#
+:Application              BlueKenue
+:Version                  3.3.4
+:WrittenBy                gegenleithner_admin
+:CreationDate             Thu, Jul 20, 2023 09:18 AM
+#
+#------------------------------------------------------------------------
+:Name  bridge2_new
+#
+:AttributeUnits 1 m
+:EndHeader
+5 0
+0.000000 2.773000
+35.404000 4.119000
+35.404000 4.619000
+0.000000 3.573000
+0.000000 2.773000
