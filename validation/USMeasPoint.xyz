@@ -1,0 +1,16 @@
+#########################################################################
+:FileType xyz  ASCII  EnSim 1.0
+# Canadian Hydraulics Centre/National Research Council (c) 1998-2012
+# DataType                 XYZ Point Set
+#
+:Application              BlueKenue
+:Version                  3.3.4
+:WrittenBy                iwbworkstation
+:CreationDate             Wed, May 10, 2023 09:21 PM
+#
+#------------------------------------------------------------------------
+:Name  US
+#
+:AttributeUnits 1 m
+:EndHeader
+8.0 0.12              0

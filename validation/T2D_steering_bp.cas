@@ -1,0 +1,123 @@
+/---------------------------------------------------------------------
+
+/ TELEMAC steering file
+/---------------------------------------------------------------------
+
+/PARALLEL PROCESSORS                   = 12
+
+/VERTICAL STRUCTURES                   = YES
+
+/---------------------------------------------------------------------
+/ FRICTION AND TURBULENCE
+/---------------------------------------------------------------------
+
+LAW OF BOTTOM FRICTION                =3
+
+FRICTION COEFFICIENT                  =90
+
+LAW OF FRICTION ON LATERAL BOUNDARIES =0
+
+ROUGHNESS COEFFICIENT OF BOUNDARIES   =90
+
+TURBULENCE MODEL                      =1
+
+VELOCITY DIFFUSIVITY                  =0.001
+
+/---------------------------------------------------------------------
+/ EQUATIONS, BOUNDARY CONDITIONS
+/---------------------------------------------------------------------
+
+VELOCITY PROFILES            =1;4
+
+PRESCRIBED FLOWRATES         =0.0;0.005028
+
+PRESCRIBED ELEVATIONS        =0.042;0.0
+
+/---------------------------------------------------------------------
+/ EQUATIONS, INITIAL CONDITIONS
+/---------------------------------------------------------------------
+
+
+/---------------------------------------------------------------------
+/ Bridges
+/---------------------------------------------------------------------
+
+NUMBER OF BRIDGES = 1
+
+BRIDGE LOCATION FILE = 'bridges.i2s'
+
+BRIDGE SECTION FILE = 'bridges_cut.i2s'
+
+/---------------------------------------------------------------------
+/ INPUT-OUTPUT, FILES
+/---------------------------------------------------------------------
+
+GEOMETRY FILE            ='Mesh.slf'
+
+BOUNDARY CONDITIONS FILE ='BC.cli'
+
+RESULTS FILE             ='NNAME'
+
+FORTRAN FILE             ='fortranroutines'
+
+LIQUID BOUNDARIES FILE   ='inlet.txt'
+
+STAGE-DISCHARGE CURVES =1;0
+
+STAGE-DISCHARGE CURVES FILE ='outlet.txt'
+
+/---------------------------------------------------------------------
+/ RESTART SIMULATION
+/---------------------------------------------------------------------
+
+INITIAL CONDITIONS = 'CONSTANT ELEVATION'
+
+INITIAL ELEVATION = 0.01
+
+/---------------------------------------------------------------------
+/ INPUT-OUTPUT, GRAPHICS AND LISTING
+/---------------------------------------------------------------------
+
+ORIGINAL DATE OF TIME           =0;0;0
+
+LISTING PRINTOUT PERIOD         =50000
+
+VARIABLES FOR GRAPHIC PRINTOUTS ='U,V,H,S,F,N,US,O, R,Z, I,J'
+
+MASS-BALANCE                    =YES
+
+GRAPHIC PRINTOUT PERIOD         =5000
+
+/---------------------------------------------------------------------
+/ NUMERICAL PARAMETERS
+/---------------------------------------------------------------------
+
+TIDAL FLATS                         =YES
+
+TREATMENT OF NEGATIVE DEPTHS        =2
+
+SUPG OPTION                         =0;0;2;2
+
+TYPE OF ADVECTION                   =14;5
+
+SOLVER ACCURACY                     = 1.E-6
+
+CONTINUITY CORRECTION               =YES
+
+TIME STEP                           = 0.01
+
+NUMBER OF TIME STEPS                = NTIME
+
+FREE SURFACE GRADIENT COMPATIBILITY =0.8
+
+TREATMENT OF THE LINEAR SYSTEM      =2
+
+SOLVER                              =1
+
+MASS-LUMPING ON H                   =1.0
+
+IMPLICITATION FOR DEPTH                   =1.0
+
+IMPLICITATION FOR VELOCITY                =1.0
+
+
