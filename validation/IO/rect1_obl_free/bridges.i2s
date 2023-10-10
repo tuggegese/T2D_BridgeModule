@@ -1,0 +1,18 @@
+#########################################################################
+:FileType i2s  ASCII  EnSim 1.0
+# Canadian Hydraulics Centre/National Research Council (c) 1998-2012
+# DataType                 2D Line Set
+#
+:Application              BlueKenue
+:Version                  3.3.4
+:WrittenBy                iwbworkstation
+:CreationDate             Fri, May 12, 2023 08:33 AM
+#
+#------------------------------------------------------------------------
+:Name  oblique
+#
+:AttributeUnits 1 m
+:EndHeader
+2 0
+9.063990 0.23999999
+8.936000 0.00001

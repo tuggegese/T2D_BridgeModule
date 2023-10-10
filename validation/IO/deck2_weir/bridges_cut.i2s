@@ -1,0 +1,21 @@
+#########################################################################
+:FileType i2s  ASCII  EnSim 1.0
+# Canadian Hydraulics Centre/National Research Council (c) 1998-2012
+# DataType                 2D Line Set
+#
+:Application              BlueKenue
+:Version                  3.3.4
+:WrittenBy                iwbworkstation
+:CreationDate             Thu, May 11, 2023 01:59 PM
+#
+#------------------------------------------------------------------------
+:Name  deck1
+#
+:AttributeUnits 1 m
+:EndHeader
+5 0
+0.000000 0.060000
+0.000000 0.045000
+0.240000 0.045000
+0.240000 0.060000
+0.000000 0.060000
